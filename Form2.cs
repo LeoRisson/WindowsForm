@@ -28,8 +28,8 @@ namespace WindowsForm
             {
                 if (TB_Usuario.Text.Equals("leonardo") && TB_Senha.Text.Equals("batata"))
                 {
-                    var calculo = new FrmInicio();
-                    calculo.Show();
+                    var menu = new FRM_Menu();
+                    menu.Show();
 
                     this.Visible = false;
                 }
